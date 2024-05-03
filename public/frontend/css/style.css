@@ -1,0 +1,54 @@
+
+#services {
+    padding: 40px 20px;
+    /* text-align: center; */
+    background-color: #ffffff;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    /* Menggunakan Flexbox */
+    justify-content: space-around;
+    /* Membuat ruang antar kartu */
+    flex-wrap: wrap;
+    /* Agar kartu bisa berpindah ke baris baru jika layar terlalu kecil */
+}
+
+.service-card {
+    background-color: #ffffff;
+    /* Warna latar belakang untuk kartu */
+    border: 1px solid #e6e5e5;
+    /* Memberikan batas pada kartu */
+    border-radius: 5px;
+    /* Menambahkan sudut melengkung */
+    padding: 20px;
+    /* Memberikan ruang dalam kartu */
+    width: 23%;
+    /* Ukuran yang sama untuk setiap kartu */
+    margin-bottom: 20px;
+    /* Memberikan jarak antar baris kartu */
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    font-size: 1.2em;
+    /* Ukuran teks */
+}
+
+.service-card p {
+    font-size: 1em;
+    /* Ukuran teks */
+}
+
+
+
